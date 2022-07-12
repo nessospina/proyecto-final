@@ -1,0 +1,25 @@
+.footer{
+    background-color: $bgcolor1;
+    width: 100%;
+    margin: 10px auto;
+    padding: 50px;
+    .redes{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        padding: none;
+        .listaRedes{
+            padding: 5px;
+            margin: 10px;
+            .redesLink{
+                .social{
+                    width: 55px;
+                    &:hover{
+                        width: 75px;
+                        transition: linear 0.3s;
+                    }
+                }
+            }
+        }
+    }
+}
