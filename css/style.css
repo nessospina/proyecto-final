@@ -166,7 +166,7 @@ h3 {
           width: 75px;
           transition: linear 0.3s; }
 
-@media all and (max-width: 412px) {
+@media all and (max-width: 415px) {
   .navbar .logo {
     display: none; }
   .titulosImgIndex {
